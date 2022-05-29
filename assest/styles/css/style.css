@@ -524,7 +524,7 @@
   z-index: 1;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  /* -ms-grid-columns: (1fr)[2]; */
       grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -663,7 +663,7 @@
             justify-content: space-between;
   }
   .projects__items {
-    -ms-grid-columns: (1fr)[2];
+    /* -ms-grid-columns: (1fr)[2]; */
         grid-template-columns: repeat(2, 1fr);
   }
   .projects .text-secondary2 {
@@ -673,7 +673,7 @@
 
 @media screen and (min-width: 1024px) {
   .projects__items {
-    -ms-grid-columns: (1fr)[3];
+    /* -ms-grid-columns: (1fr)[3]; */
         grid-template-columns: repeat(3, 1fr);
   }
 }
