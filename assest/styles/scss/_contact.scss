@@ -1,0 +1,43 @@
+.contact {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: 
+    linear-gradient(
+      to right,
+      rgba($Dust_Blue, 0.5),
+      rgba($Dust_Blue, 0.2)
+    ),
+    
+    url('/assest/images/background.jpg') center top;
+  background-size: cover;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    font-size: 1.5rem;
+    text-align: center;
+
+    i {
+      padding-right: 0.5rem;
+      padding-bottom: 1rem;
+    }
+
+    .contact__email {
+      padding-bottom: 2rem;
+      @include transition-ease;
+
+      a:hover {
+        color: $Grey_Blue;
+      }
+
+    }
+  }
+}

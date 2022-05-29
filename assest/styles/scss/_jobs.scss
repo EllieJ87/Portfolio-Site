@@ -1,0 +1,91 @@
+.work {
+  margin-bottom: 2rem;
+
+  &__bio-image {
+    height: 30vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+    background: 
+    linear-gradient(
+      to right,
+      rgba($Mint, 0.5),
+      rgba($Mint, 0.2)
+    ),
+    
+    url('/assest/images/background.jpg') center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  } 
+
+  &__bio {
+    width: 80%;
+    text-align: center;
+
+    .highlight {
+      font-family: 'Kalam', cursive;
+      text-transform: uppercase;    
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+  }
+
+  .jobs {
+    width: 65vw;
+    top: 30vh;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    position: relative;  
+
+    &__job {
+      background-color: lighten($Grey_Blue, 10%);
+      padding: 0.5rem;
+      border-bottom: 5px solid $Mint;
+      color: $Dust_Blue;
+      border-radius: 10px;
+
+      ul {
+
+        li {
+          padding: 0.5rem 0;
+        }
+      }
+    }
+  }
+
+  .bottom-container {
+    padding-bottom: 2rem;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+
+    a {
+			padding: 0.4rem;
+			@include transition-ease;
+			color: $Dust_Blue;
+			
+			&:hover {
+				color: $Mint;
+			}
+		}
+  }
+
+  footer {
+    bottom: 1rem;
+    right: 1rem;
+    color: $Dust_Blue;
+    transform: 
+      rotate(90deg) 
+      translate(-3rem, -5rem);
+  }
+}

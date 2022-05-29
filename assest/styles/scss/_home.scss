@@ -1,0 +1,30 @@
+.home {
+  height: 100%;
+  width: 100%;
+  padding: 20vh 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  background: 
+    linear-gradient(
+      to right,
+      rgba($Dust_Blue, 0.5),
+      rgba($Dust_Blue, 0.2)
+    ),
+    
+    url('/assest/images/background.jpg') center top;
+  background-size: cover;
+
+  &__name {
+    font-family: 'Kalam', cursive;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    &--last {
+      color: $Mint;
+      font-weight: 700;
+    }
+  }
+}

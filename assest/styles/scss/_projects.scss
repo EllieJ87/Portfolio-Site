@@ -1,0 +1,145 @@
+.projects {
+  padding-bottom: 2rem;
+
+  &__bio-image {
+    height: 30vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+    background: 
+    linear-gradient(
+      to right,
+      rgba($Mint, 0.5),
+      rgba($Mint, 0.2)
+    ),
+    
+    url('/assest/images/background.jpg') center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    .highlight {
+      font-family: 'Kalam', cursive;
+      text-transform: uppercase;    
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+  } 
+
+  .highlight-center {
+    margin-top: 2rem;
+    font-weight: 600;
+    color: $Dust_Blue;
+    text-align: center;
+    text-transform: uppercase;
+    top: 30vh;
+    position: relative;
+  }
+
+  &__items {
+    width: 60vw;
+    top: 30vh;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    position: relative;
+  }
+
+  &__item {
+    position: relative;
+    border-bottom: 5px solid $Mint;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    
+
+    img {
+      width: 100%;     
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $Gold;
+      
+      opacity: 0;
+      @include transition-ease;
+    }
+
+    &:hover {
+      &::after {
+        top: 0;
+        opacity: 0.9;
+      }
+
+      .projects__btn {
+        opacity: 1;
+        color: $Dust_Blue;
+
+        &:hover {
+          color: $Peach;
+        }
+      }
+    }
+  }
+
+  &__btns {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+  }
+
+  &__btn {
+    opacity: 0;
+    color: set-text-color($Gold);
+    @include transition-ease;
+
+    &:hover {
+      color: set-text-color(set-text-color($Gold));
+    }
+  }
+
+  .bottom-container {
+    padding-bottom: 2rem;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+
+    a {
+			padding: 0.4rem;
+			@include transition-ease;
+			color: $Dust_Blue;
+			
+			&:hover {
+				color: $Mint;
+			}
+		}
+  }
+
+  footer {
+    bottom: 1rem;
+    right: 1rem;
+    color: $Dust_Blue;
+    transform: 
+      rotate(90deg) 
+      translate(-3rem, -5rem);  
+  }
+}
