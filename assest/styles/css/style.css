@@ -17,8 +17,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(89, 95, 114, 0.5)), to(rgba(89, 95, 114, 0.2))), url("/assest/images/background.jpg") center top;
-  background: linear-gradient(to right, rgba(89, 95, 114, 0.5), rgba(89, 95, 114, 0.2)), url("/assest/images/background.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(89, 95, 114, 0.5)), to(rgba(89, 95, 114, 0.2))), url("../../images/background.jpg") center top;
+  background: linear-gradient(to right, rgba(89, 95, 114, 0.5), rgba(89, 95, 114, 0.2)), url("../../images/background.jpg") center top;
   background-size: cover;
 }
 
@@ -200,8 +200,8 @@
 .about__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(159, 216, 203, 0.5)), to(rgba(159, 216, 203, 0.2))), url("/assest/images/background.jpg") center top;
-  background: linear-gradient(to right, rgba(159, 216, 203, 0.5), rgba(159, 216, 203, 0.2)), url("/assest/images/background.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(159, 216, 203, 0.5)), to(rgba(159, 216, 203, 0.2))), url("../../images/background.jpg") center top;
+  background: linear-gradient(to right, rgba(159, 216, 203, 0.5), rgba(159, 216, 203, 0.2)), url("../../images/background.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -331,8 +331,8 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(159, 216, 203, 0.5)), to(rgba(159, 216, 203, 0.2))), url("/assest/images/background.jpg") center top;
-  background: linear-gradient(to right, rgba(159, 216, 203, 0.5), rgba(159, 216, 203, 0.2)), url("/assest/images/background.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(159, 216, 203, 0.5)), to(rgba(159, 216, 203, 0.2))), url("../../images/background.jpg") center top;
+  background: linear-gradient(to right, rgba(159, 216, 203, 0.5), rgba(159, 216, 203, 0.2)), url("../../images/background.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -429,8 +429,8 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(159, 216, 203, 0.5)), to(rgba(159, 216, 203, 0.2))), url("/assest/images/background.jpg") center top;
-  background: linear-gradient(to right, rgba(159, 216, 203, 0.5), rgba(159, 216, 203, 0.2)), url("/assest/images/background.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(159, 216, 203, 0.5)), to(rgba(159, 216, 203, 0.2))), url("../../images/background.jpg") center top;
+  background: linear-gradient(to right, rgba(159, 216, 203, 0.5), rgba(159, 216, 203, 0.2)), url("../../images/background.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -590,8 +590,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(89, 95, 114, 0.5)), to(rgba(89, 95, 114, 0.2))), url("/assest/images/background.jpg") center top;
-  background: linear-gradient(to right, rgba(89, 95, 114, 0.5), rgba(89, 95, 114, 0.2)), url("/assest/images/background.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(89, 95, 114, 0.5)), to(rgba(89, 95, 114, 0.2))), url("../../images/background.jpg") center top;
+  background: linear-gradient(to right, rgba(89, 95, 114, 0.5), rgba(89, 95, 114, 0.2)), url("../../images/background.jpg") center top;
   background-size: cover;
 }
 
