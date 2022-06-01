@@ -52,6 +52,26 @@
       color: $Dust_Blue;
       border-radius: 10px;
 
+      .skills-icons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0.5rem;
+        
+
+        img {
+          justify-self: center;
+          height: 2rem;
+          padding: 0.2rem;
+        }
+
+        i {
+          justify-self: center;
+          font-size: 2rem;
+          padding: 0.2rem;
+        }
+
+      }
+
       ul {
 
         li {

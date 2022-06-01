@@ -382,6 +382,28 @@
   border-radius: 10px;
 }
 
+.work .jobs__job .skills-icons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.work .jobs__job .skills-icons img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  height: 2rem;
+  padding: 0.2rem;
+}
+
+.work .jobs__job .skills-icons i {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-size: 2rem;
+  padding: 0.2rem;
+}
+
 .work .jobs__job ul li {
   padding: 0.5rem 0;
 }
@@ -676,11 +698,19 @@
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
+  .skills-icons {
+    -ms-grid-columns: (1fr)[11] !important;
+        grid-template-columns: repeat(11, 1fr) !important;
+  }
 }
 
 @media screen and (min-width: 1600px) {
   .projects__bioimage {
     height: 50vh;
+  }
+  .skills-icons {
+    -ms-grid-columns: (1fr)[11] !important;
+        grid-template-columns: repeat(11, 1fr) !important;
   }
 }
 
