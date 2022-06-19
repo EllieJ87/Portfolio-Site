@@ -375,11 +375,11 @@
 }
 
 .work .jobs__job {
-  background-color: white;
-  padding: 0.5rem;
-  border-bottom: 5px solid #9FD8CB;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1.2rem;
+  border: 2px solid #9FD8CB;
   color: #595F72;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .work .jobs__job .skills-icons {
@@ -501,10 +501,20 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #9FD8CB;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #9FD8CB;
   overflow: hidden;
   cursor: pointer;
-  border-radius: 10px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.projects__item .projects__title {
+  color: #595F72;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .projects__item img {
@@ -671,7 +681,7 @@
     font-size: 1.5rem;
   }
   .jobs {
-    width: 20vw;
+    width: 80vw;
   }
   .jobs__title {
     display: -webkit-box;

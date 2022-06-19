@@ -46,11 +46,12 @@
     position: relative;  
 
     &__job {
-      background-color: lighten($Grey_Blue, 10%);
-      padding: 0.5rem;
-      border-bottom: 5px solid $Mint;
+      background-color: $White_Alpha;
+      padding: 1.2rem;
+      border: 2px solid $Mint;
       color: $Dust_Blue;
-      border-radius: 10px;
+      border-radius: 5px;
+
 
       .skills-icons {
         display: grid;
